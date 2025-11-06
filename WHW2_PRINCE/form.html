@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunder Fan Feedback</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f8ff; margin: 0;">
+
+    <!-- OKC Thunder Logo -->
+    <img src="okcthunderlogo.jpg" alt="OKC Thunder Logo"
+         width="100" height="70"
+         style="position:absolute; top:10px; left:10px;">
+
+    <!-- Navigation -->
+    <nav style="background-color:#1e90ff; padding:10px; text-align:center; margin-top:90px;">
+        <a href="index.html" style="color:white; margin-right:15px;">Home</a>
+        <a href="table.html" style="color:white; margin-right:15px;">Team Stats</a>
+        <a href="form.html" style="color:white;">Fan Feedback</a>
+    </nav>
+
+    <h1 style="text-align:center;">Thunder Fan Feedback Form</h1>
+
+    <p style="text-align:center;">Let us know who your favorite players are and what you think about this season!</p>
+    <br>
+
+    <form action="#" style="background-color: #e0f7fa; padding: 20px; width: 400px; margin: auto; border: 2px solid #1e90ff; border-radius: 5px;">
+        <!-- First Name -->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <!-- Last Name -->
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <!-- Team Picture -->
+        <div style="text-align:center;">
+            <img src="teampic.jpg" alt="Oklahoma City Thunder Team" width="300" style="border:2px solid #1e90ff; margin-top:10px;">
+            <p style="font-size: small; color: #555;">The Oklahoma City Thunder 2025 Roster</p>
+        </div>
+
+        <!-- Dropdown -->
+        <label for="player">Favorite Player:</label><br>
+        <select id="player" name="player">
+            <option value="shai">Shai Gilgeous-Alexander</option>
+            <option value="chet">Chet Holmgren</option>
+            <option value="giddy">Josh Giddey</option>
+            <option value="jalen">Jalen Williams</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Do you attend Thunder games?</legend>
+            <input type="radio" id="yes" name="games" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="games" value="no">
+            <label for="no">No</label><br>
+        </fieldset><br>
+
+        <!-- Comment Box -->
+        <label for="comment">Your Thoughts on This Season:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="40" style="background-color:#fff9c4;"></textarea><br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit" style="background-color: #4caf50; color: white; padding: 5px 15px;">
+        <input type="reset" value="Reset" style="background-color: #f44336; color: white; padding: 5px 15px;">
+    </form>
+
+    <br><br>
+    <p style="text-align:center;">Thanks for sharing your feedback! Go Thunder!</p>
+
+</body>
+</html>
